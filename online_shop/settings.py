@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost',  '127.0.0.1:8000', '127.0.0.1',  '8000-marcopolo19-ecommercepr-07ujfw83qw1.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['localhost',  '127.0.0.1:8000', '127.0.0.1', '8000-marcopolo19-ecommercepr-s4xdskwts5s.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'wishlist',
     
       # Other
     'crispy_forms',
